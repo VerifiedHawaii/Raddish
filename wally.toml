@@ -1,0 +1,11 @@
+[package]
+name = "verifiedhawaii/raddish"
+description = "Redis-like in-memory cache and networking system for Roblox"
+version = "1.0.0"
+license = "MIT"
+authors = ["VerifiedHawaii"]
+realm = "shared"
+registry = "https://github.com/UpliftGames/wally-index"
+exclude = ["docs", ".github", ".git", ".vscode"]
+
+[dependencies]
