@@ -102,11 +102,51 @@ Raddish is a **Redis-like caching and networking system** built specifically for
 ## 📦 Installation
 
 
-### Manual Installation
+### Option 1: Wally (Recommended)
+
+**Prerequisites:** Install [Wally](https://github.com/UpliftGames/wally) and [Rojo](https://rojo.space/)
+
+1. **Add to your `wally.toml`:**
+   ```toml
+   [dependencies]
+   Raddish = "verifiedhawaii/raddish@1.0.1"
+   ```
+
+2. **Install packages:**
+   ```bash
+   wally install
+   ```
+
+3. **Sync to Roblox Studio with Rojo:**
+   ```bash
+   rojo serve
+   ```
+   Then connect via the Rojo plugin in Studio.
+
+4. **Require in your scripts:**
+   ```lua
+   local Raddish = require(game.ReplicatedStorage.Packages.Raddish)
+   ```
+
+### Option 2: Roblox Creator Store
+
+1. Click [here](https://create.roblox.com/store/asset/79726708959308/Raddish)
+2. Click **Get** to add to your inventory
+3. Insert into **ReplicatedStorage** or **ServerScriptService**
+4. Require in your scripts:
+   ```lua
+   local Raddish = require(game.ReplicatedStorage.Raddish)
+   ```
+
+### Option 3: Manual Download
 
 1. Download the latest release from [Releases](https://github.com/VerifiedHawaii/Raddish/releases)
-2. Extract the `Raddish` folder
-3. Place it in `ReplicatedStorage` or `ServerScriptService` in Roblox Studio
+2. Extract and place the `Raddish` folder in **ReplicatedStorage**
+3. Require in your scripts:
+   ```lua
+   local Raddish = require(game.ReplicatedStorage.Raddish)
+   ```
+
 
 ### Verify Installation
 
