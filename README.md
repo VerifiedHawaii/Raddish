@@ -20,7 +20,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Roblox](https://img.shields.io/badge/Roblox-Ready-00A2FF?logo=roblox)](https://www.roblox.com/)
 [![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://github.com/VerifiedHawaii/Raddish/releases)
-[![Documentation](https://img.shields.io/badge/docs-hawaiian.gg-green.svg)](https://docs.hawaiian.gg/raddish/getting-started)
+[![Docs](https://img.shields.io/badge/Docs-verifiedhawaii.xyz-orange)](https://docs.verifiedhawaii.xyz/raddish/getting-started.html)
 
 [Features](#-features) • [Installation](#-installation) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Contributing](#-contributing)
 
